@@ -380,6 +380,7 @@ def main() -> tuple:
     game.change_map(300, "^")
     game.show_map()
     game.show_inv()
+    print("Map Key:\n^ = player\nD = decision\nC = challenge\nT = trader\nL = loot\nE = end")
     print("There is a Bear standing in the way, monkey behind it with gold\nDo you want to [a]ttack it or [r]un: ")
     choice = input(">>> ")
     if choice[0].lower() == "a":
