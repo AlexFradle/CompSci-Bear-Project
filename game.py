@@ -825,7 +825,10 @@ def file_handler(name: str, info: tuple) -> None:
     """
     with open("score.json") as f:
         file = json.load(f)
-    file[name] = {"inv": {**info[0]}, "gold": info[1]} if isinstance(info[0], dict) else {"inv": {}, "gold": info[1]}
+    try:
+        file[name] = {"inv": {**info[0]}, "gold": info[1]}
+    except TypeError:
+        file[name] = {"inv": "empty", "gold": info[1]}
     with open("score.json", "w") as f:
         json.dump(file, f, indent=4)
 
