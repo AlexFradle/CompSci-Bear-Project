@@ -1,0 +1,67 @@
+{
+    "alex": {
+        "inv": {
+            "pickaxe": 1
+        },
+        "gold": 16
+    },
+    "joe": {
+        "inv": {
+            "pickaxe": 1
+        },
+        "gold": 24
+    },
+    "olly": {
+        "inv": {
+            "pickaxe": 1
+        },
+        "gold": 12
+    },
+    "test": {
+        "inv": {
+            "gold": 20
+        },
+        "gold": 20
+    },
+    "test2": {
+        "inv": {
+            "gold": 11,
+            "picaxe": 1,
+            "flare": 1
+        },
+        "gold": 11
+    },
+    "test3": {
+        "inv": {
+            "gold": 10
+        },
+        "gold": 10
+    },
+    "test4": {
+        "inv": {
+            "gold": 6,
+            "pickaxe": 1,
+            "flare": 1
+        },
+        "gold": 6
+    },
+    "test7": {
+        "inv": {
+            "gold": 0
+        },
+        "gold": 0
+    },
+    "test8": {
+        "inv": {
+            "gold": 4,
+            "flare": 1
+        },
+        "gold": 4
+    },
+    "fail": {
+        "inv": {
+            "gold": 0
+        },
+        "gold": 0
+    }
+}
